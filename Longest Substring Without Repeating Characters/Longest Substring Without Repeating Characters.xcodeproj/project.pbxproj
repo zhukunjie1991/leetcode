@@ -1,0 +1,234 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F12FB567194FD108003BD394 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F12FB566194FD108003BD394 /* main.cpp */; };
+		F12FB569194FD108003BD394 /* Longest_Substring_Without_Repeating_Characters.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = F12FB568194FD108003BD394 /* Longest_Substring_Without_Repeating_Characters.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F12FB561194FD108003BD394 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				F12FB569194FD108003BD394 /* Longest_Substring_Without_Repeating_Characters.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F12FB563194FD108003BD394 /* Longest Substring Without Repeating Characters */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Longest Substring Without Repeating Characters"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F12FB566194FD108003BD394 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F12FB568194FD108003BD394 /* Longest_Substring_Without_Repeating_Characters.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Longest_Substring_Without_Repeating_Characters.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F12FB560194FD108003BD394 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F12FB55A194FD108003BD394 = {
+			isa = PBXGroup;
+			children = (
+				F12FB565194FD108003BD394 /* Longest Substring Without Repeating Characters */,
+				F12FB564194FD108003BD394 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F12FB564194FD108003BD394 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F12FB563194FD108003BD394 /* Longest Substring Without Repeating Characters */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F12FB565194FD108003BD394 /* Longest Substring Without Repeating Characters */ = {
+			isa = PBXGroup;
+			children = (
+				F12FB566194FD108003BD394 /* main.cpp */,
+				F12FB568194FD108003BD394 /* Longest_Substring_Without_Repeating_Characters.1 */,
+			);
+			path = "Longest Substring Without Repeating Characters";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F12FB562194FD108003BD394 /* Longest Substring Without Repeating Characters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F12FB56C194FD108003BD394 /* Build configuration list for PBXNativeTarget "Longest Substring Without Repeating Characters" */;
+			buildPhases = (
+				F12FB55F194FD108003BD394 /* Sources */,
+				F12FB560194FD108003BD394 /* Frameworks */,
+				F12FB561194FD108003BD394 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Longest Substring Without Repeating Characters";
+			productName = "Longest Substring Without Repeating Characters";
+			productReference = F12FB563194FD108003BD394 /* Longest Substring Without Repeating Characters */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F12FB55B194FD108003BD394 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = zhukunjie;
+			};
+			buildConfigurationList = F12FB55E194FD108003BD394 /* Build configuration list for PBXProject "Longest Substring Without Repeating Characters" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F12FB55A194FD108003BD394;
+			productRefGroup = F12FB564194FD108003BD394 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F12FB562194FD108003BD394 /* Longest Substring Without Repeating Characters */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F12FB55F194FD108003BD394 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F12FB567194FD108003BD394 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F12FB56A194FD108003BD394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F12FB56B194FD108003BD394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F12FB56D194FD108003BD394 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F12FB56E194FD108003BD394 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F12FB55E194FD108003BD394 /* Build configuration list for PBXProject "Longest Substring Without Repeating Characters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12FB56A194FD108003BD394 /* Debug */,
+				F12FB56B194FD108003BD394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F12FB56C194FD108003BD394 /* Build configuration list for PBXNativeTarget "Longest Substring Without Repeating Characters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F12FB56D194FD108003BD394 /* Debug */,
+				F12FB56E194FD108003BD394 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F12FB55B194FD108003BD394 /* Project object */;
+}
